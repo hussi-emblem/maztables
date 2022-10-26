@@ -1,1 +1,65 @@
 
+Getting Started with Mazhr Tables
+To use this table you have to install this library in your project by running command npm i mazhrtables
+
+Available Scripts
+<Tables tableData={tableData} tableColoumns={tableColoumns} selectedRow={selectedRow} />
+
+You have to pass two props in order to use this component
+
+tableData
+tableColoumns
+The format for these two props are given blow
+
+  const tableData = [{
+
+            attitude: {
+                contacting_potential_customers: 4, delivering_to_promise: 2, ensure_customer_satisfaction: 3, establishing_relationships: 4, identifying_opportunities: 5,
+                isSelected: false, making_the_deal: 7, name: "Attitude", preparing_a_solution: 9, preparing_the_ground: 0,
+            },
+
+            competency: {
+                contacting_potential_customers: 1, delivering_to_promise: 4, ensure_customer_satisfaction: 5, establishing_relationships: 7, identifying_opportunities: 6,
+                isSelected: false, making_the_deal: 0, name: "Competency", preparing_a_solution: 9, preparing_the_ground: 8,
+            },
+
+            company_id: 25,
+            image: "",
+            pool_id: 216,
+            user_id: 10963,
+            user_name: "Arindam Das Sarkar",
+            },
+
+            {
+
+            attitude: {
+                contacting_potential_customers: 4, delivering_to_promise: 2, ensure_customer_satisfaction: 3, establishing_relationships: 4, identifying_opportunities: 5,
+                isSelected: false, making_the_deal: 7, name: "Attitude", preparing_a_solution: 9, preparing_the_ground: 0,
+            },
+
+            competency: {
+                contacting_potential_customers: 1, delivering_to_promise: 4, ensure_customer_satisfaction: 5, establishing_relationships: 7, identifying_opportunities: 6,
+                isSelected: false, making_the_deal: 0, name: "Competency", preparing_a_solution: 9, preparing_the_ground: 8,
+            },
+
+            company_id: 25,
+            image: "",
+            pool_id: 216,
+            user_id: 1096,
+            user_name: "Abcd",
+            }
+
+        ]
+
+    const tableColoumns = [
+        { column_name: 'preparing_the_ground', header_name: 'Preparing The Ground' },
+        { column_name: 'identifying_opportunities', header_name: 'Identifying Opportunities' },
+        { column_name: 'contacting_potential_customers', header_name: 'Contacting Potential Customers' },
+        { column_name: 'establishing_relationships', header_name: 'Establishing Relationships' },
+        { column_name: 'preparing_a_solution', header_name: 'Preparing a Solution' },
+        { column_name: 'making_the_deal', header_name: 'Making The Deal' },
+        { column_name: 'delivering_to_promise', header_name: 'Delivering to Promise' },
+        { column_name: 'ensure_customer_satisfaction', header_name: 'Ensure Customer Satisfaction' }
+    ] 
+You can get selected rows through this function .
+const selectedRow= (data) => { }

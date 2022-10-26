@@ -1,0 +1,135 @@
+
+@import "primereact/resources/primereact.min.css";                  
+@import "~primeicons/primeicons.css";
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+$primary-color : #00B0A0;
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background : $primary-color;
+    border-color : $primary-color;
+    color: #FFFFFF;
+}
+
+.p-link :focus{
+    box-shadow: 0 0 0 0.2rem $primary-color;
+}
+
+.p-column-filter-menu-button:focus {
+    box-shadow: 0 0 0 0.2rem$primary-color;
+}
+
+.custom-checkbox {
+    // position: relative;
+    // top: 5px;
+    // margin-right: 0.5rem;
+    // cursor: pointer;
+    //  .checkmark {
+    //    width: 21px;
+    //    height: 21px;
+    //    border: 2px solid #689F38;
+    //    display: inline-block;
+    //    border-radius: 3px;
+    //    background: #689F38 url('./white_check.png') center/1250% no-repeat;
+    // }
+    //  input{
+    //    display: none;
+    // }
+
+    // input:checked + .checkmark{
+    //     background-size: 60%;
+    // }
+}
+.p-dropdown:not(.p-disabled):hover {
+    border-color : $primary-color;
+  }
+  .p-dropdown:not(.p-disabled).p-focus {
+    box-shadow: 0 0 0 0.2rem $primary-color;
+    border-color : $primary-color;
+  }
+
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    background: $primary-color;
+    color: #ffff;
+  }
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+    background: $primary-color;
+    color: #ffff;
+  }
+
+  .p-inputtext:enabled:hover {
+    border-color : $primary-color;
+  }
+  .p-inputtext:enabled:focus {
+    box-shadow: 0 0 0 0.2rem $primary-color;
+    border-color : $primary-color;
+  }
+
+  .p-selectbutton .p-button.p-highlight {
+    background : $primary-color;
+    border-color : $primary-color;
+  }
+ 
+  .p-selectbutton .p-button.p-highlight:hover {
+    background : $primary-color;
+    border-color : $primary-color;
+  }
+
+  .p-button {
+    color: #FFFFFF;
+    background : $primary-color;
+    border: 1px solid$primary-color;
+  }
+  .p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+    background : $primary-color;
+    color: #FFFFFF;
+    border-color : $primary-color;
+  }
+  .p-button:enabled:active, .p-button:not(button):not(a):not(.p-disabled):active {
+    background : $primary-color;
+    color: #FFFFFF;
+    border-color : $primary-color;
+  }
+  .p-button.p-button-outlined {
+    color : $primary-color;
+    border: 1px solid$primary-color;
+  }
+  .p-button.p-button-outlined:enabled:hover, .p-button.p-button-outlined:not(button):not(a):not(.p-disabled):hover {
+    color : $primary-color;
+  }
+  .p-button.p-button-outlined:enabled:active, .p-button.p-button-outlined:not(button):not(a):not(.p-disabled):active {
+    background: rgba(70, 77, 242, 0.16);
+    color: #ffff;
+    border: 1px solid$primary-color; 
+  }
+  .p-button.p-button-outlined.p-button-plain {
+    color: #ffff;
+    border-color : $primary-color;
+  }
+  .p-button.p-button-outlined.p-button-plain:enabled:hover, .p-button.p-button-outlined.p-button-plain:not(button):not(a):not(.p-disabled):hover {
+    color : $primary-color;
+  }
+  .p-button.p-button-outlined.p-button-plain:enabled:active, .p-button.p-button-outlined.p-button-plain:not(button):not(a):not(.p-disabled):active {
+    color : $primary-color;
+  }
+  .p-button.p-button-text {
+    color : $primary-color;
+  }
+  .p-button.p-button-text:enabled:hover, .p-button.p-button-text:not(button):not(a):not(.p-disabled):hover {
+    color : $primary-color;
+  }
+  .p-button.p-button-text:enabled:active, .p-button.p-button-text:not(button):not(a):not(.p-disabled):active {
+    color : $primary-color;
+  }
+  .p-button.p-button-text.p-button-plain {
+    color: #64aaa4;
+  }
+  .p-button.p-button-text.p-button-plain:enabled:hover, .p-button.p-button-text.p-button-plain:not(button):not(a):not(.p-disabled):hover {
+    color : $primary-color;
+  }
+  .p-button.p-button-text.p-button-plain:enabled:active, .p-button.p-button-text.p-button-plain:not(button):not(a):not(.p-disabled):active {
+    background : $primary-color;
+    color : $primary-color;
+  }
+
+  .p-badge.p-badge-lg {
+    line-height: 2.25rem !important;
+}
